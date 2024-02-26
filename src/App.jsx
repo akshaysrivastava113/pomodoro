@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import TimeMain from './components/TimeMain'
+import Notes from './components/Notes'
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
       <div className='pomodoro-timer'>
       <TimeMain/>
       </div>
+      </div>
+      <div>
+        <Notes/>
       </div>
     </div>
     </>
