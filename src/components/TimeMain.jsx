@@ -51,7 +51,6 @@ export default function TimeMain() {
             {isRunning == "stop" || isRunning == "pause"?<button className="text-center w-20 border-2 rounded-md p-2 m-2 bg-green-100" onClick={() => setIsRunning("start")}>{isRunning == "stop"?"Start":"Resume"}</button>:<button className="text-center w-20 border-2 rounded-md p-2 m-2 bg-red-300" onClick={() => setIsRunning("pause")}>Pause</button>}
 
             <button className="text-center w-20 border-2 rounded-md bg-red-300 p-2 m-2" onClick={() => setIsRunning("stop")}>Reset</button>
-               
             </div>
         </div>
         </>
